@@ -1,3 +1,4 @@
+# Домашнее задание по теме "Декораторы"
 def is_prime(func):
     def wrapper(*args, **kwargs):
         res = func(*args, **kwargs)
