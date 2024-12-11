@@ -5,7 +5,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 import asyncio
 
-api = '7734659737:AAGckNf3nRt0Oral6HIHpa7Jb8umcPU1tnk'  # токен удален перед загрузкой на GitHub
+api = ''  # токен удален перед загрузкой на GitHub
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
